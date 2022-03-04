@@ -9,10 +9,10 @@ module "aft" {
  tf_backend_secondary_region = "eu-west-2"
 
   vcs_provider                                  = "github"
-  account_request_repo_name                     = "shamoun-shamoun/terraform-aft-account-request"
-  global_customizations_repo_name               = "shamoun-shamoun/terraform-aft-global-customizations"
-  account_customizations_repo_name              = "shamoun-shamoun/terraform-aft-account-customizations"
-  account_provisioning_customizations_repo_name = "shamoun-shamoun/terraform-aft-account-provisioning-customizations"
+  account_request_repo_name                     = "shamoun-shamoun/Demo-azure-devops/terraform-aft-account-request"
+  global_customizations_repo_name               = "shamoun-shamoun/Demo-azure-devops/terraform-aft-global-customizations"
+  account_customizations_repo_name              = "shamoun-shamoun/Demo-azure-devops/terraform-aft-account-customizations"
+  account_provisioning_customizations_repo_name = "shamoun-shamoun/Demo-azure-devops/terraform-aft-account-provisioning-customizations"
 }
   
 
