@@ -1,12 +1,12 @@
 module "aft" {
    source                      = "github.com/aws-ia/terraform-aws-control_tower_account_factory"
 
-  ct_management_account_id    = var.ct_management_account_id
-  log_archive_account_id      = var.log_archive_account_id
-  audit_account_id            = var.audit_account_id
-  aft_management_account_id   = var.aft_management_account_id
-  ct_home_region              = var.ct_home_region
-  tf_backend_secondary_region = "us-west-2"
+  ct_management_account_id    = "506836426456"
+ log_archive_account_id      = "197887608214"
+audit_account_id            = "301675479634"
+aft_management_account_id   = "243262754033"
+ct_home_region              = "eu-west-1"
+tf_backend_secondary_region = "eu-west-2"
 
   vcs_provider                                  = "github"
   account_request_repo_name                     = "${var.github_username}/learn-terraform-aft-account-request"
