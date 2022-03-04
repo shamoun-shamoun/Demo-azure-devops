@@ -19,9 +19,5 @@ module "aft" {
   vcs_provider                                  = "github"
 }
   
-  # Optional Feature Flags
-  aft_feature_delete_default_vpcs_enabled = true
-  aft_feature_cloudtrail_data_events      = false
-  aft_feature_enterprise_support          = false
-}
+
 
